@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #24292f;
+  font-weight: 500;
+  line-height: initial;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.box {
+  background-color: #ffffff;
+  border: 1px solid #d1d5da;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.textarea {
+  display: block;
+  width: 90%;
+  overflow: hidden;
+  resize: both;
+  min-height: 40px;
+  line-height: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1px 6px;
+}
+
+.textarea[contenteditable]:empty::before {
+  content: "Vul hier je antwoord in";
+  color: gray;
+}
+
+.navigation {
+  margin: 10px;
+}
